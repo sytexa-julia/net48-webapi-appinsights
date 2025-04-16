@@ -14,3 +14,5 @@ NOTE: Sampling has been disabled; all telemetry will be transmitted. Uncomment t
   <IncludedTypes>Event</IncludedTypes>
 </Add>-->
 ```
+
+If you want the Postgres database used in ValuesController.cs, I ran it temporarily with Docker with `docker run -d -p 5432:5432 ghusta/postgres-world-db:2.12`
